@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB165907287A738D004CFDEF /* caloriesdksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB165906287A738D004CFDEF /* caloriesdksApp.swift */; };
+		FB165909287A738D004CFDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB165908287A738D004CFDEF /* ContentView.swift */; };
+		FB16590B287A7391004CFDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB16590A287A7391004CFDEF /* Assets.xcassets */; };
+		FB16590E287A7391004CFDEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB16590D287A7391004CFDEF /* Preview Assets.xcassets */; };
+		FB165917287A74E0004CFDEF /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB165915287A74E0004CFDEF /* FoodModel.xcdatamodeld */; };
+		FB165919287A763C004CFDEF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB165918287A763C004CFDEF /* DataController.swift */; };
+		FB16591D287A7B01004CFDEF /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16591C287A7B01004CFDEF /* AddFoodView.swift */; };
+		FB16591F287A7FA3004CFDEF /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16591E287A7FA3004CFDEF /* TimeFormatting.swift */; };
+		FB165921287A8A54004CFDEF /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB165920287A8A54004CFDEF /* EditFoodView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB165903287A738D004CFDEF /* caloriesdks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caloriesdks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB165906287A738D004CFDEF /* caloriesdksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caloriesdksApp.swift; sourceTree = "<group>"; };
+		FB165908287A738D004CFDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB16590A287A7391004CFDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB16590D287A7391004CFDEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB165916287A74E0004CFDEF /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
+		FB165918287A763C004CFDEF /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		FB16591C287A7B01004CFDEF /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		FB16591E287A7FA3004CFDEF /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		FB165920287A8A54004CFDEF /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB165900287A738D004CFDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1658FA287A738C004CFDEF = {
+			isa = PBXGroup;
+			children = (
+				FB165905287A738D004CFDEF /* caloriesdks */,
+				FB165904287A738D004CFDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB165904287A738D004CFDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB165903287A738D004CFDEF /* caloriesdks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB165905287A738D004CFDEF /* caloriesdks */ = {
+			isa = PBXGroup;
+			children = (
+				FB165906287A738D004CFDEF /* caloriesdksApp.swift */,
+				FB16591B287A7A80004CFDEF /* Helpers */,
+				FB16591A287A7A79004CFDEF /* Views */,
+				FB165914287A748C004CFDEF /* DataModel */,
+				FB16590A287A7391004CFDEF /* Assets.xcassets */,
+				FB16590C287A7391004CFDEF /* Preview Content */,
+			);
+			path = caloriesdks;
+			sourceTree = "<group>";
+		};
+		FB16590C287A7391004CFDEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB16590D287A7391004CFDEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB165914287A748C004CFDEF /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB165915287A74E0004CFDEF /* FoodModel.xcdatamodeld */,
+				FB165918287A763C004CFDEF /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		FB16591A287A7A79004CFDEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB165908287A738D004CFDEF /* ContentView.swift */,
+				FB16591C287A7B01004CFDEF /* AddFoodView.swift */,
+				FB165920287A8A54004CFDEF /* EditFoodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB16591B287A7A80004CFDEF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB16591E287A7FA3004CFDEF /* TimeFormatting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB165902287A738D004CFDEF /* caloriesdks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB165911287A7391004CFDEF /* Build configuration list for PBXNativeTarget "caloriesdks" */;
+			buildPhases = (
+				FB1658FF287A738D004CFDEF /* Sources */,
+				FB165900287A738D004CFDEF /* Frameworks */,
+				FB165901287A738D004CFDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = caloriesdks;
+			productName = caloriesdks;
+			productReference = FB165903287A738D004CFDEF /* caloriesdks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1658FB287A738C004CFDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FB165902287A738D004CFDEF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FB1658FE287A738C004CFDEF /* Build configuration list for PBXProject "caloriesdks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1658FA287A738C004CFDEF;
+			productRefGroup = FB165904287A738D004CFDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB165902287A738D004CFDEF /* caloriesdks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB165901287A738D004CFDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB16590E287A7391004CFDEF /* Preview Assets.xcassets in Resources */,
+				FB16590B287A7391004CFDEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1658FF287A738D004CFDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB16591D287A7B01004CFDEF /* AddFoodView.swift in Sources */,
+				FB165909287A738D004CFDEF /* ContentView.swift in Sources */,
+				FB165919287A763C004CFDEF /* DataController.swift in Sources */,
+				FB165907287A738D004CFDEF /* caloriesdksApp.swift in Sources */,
+				FB165917287A74E0004CFDEF /* FoodModel.xcdatamodeld in Sources */,
+				FB165921287A8A54004CFDEF /* EditFoodView.swift in Sources */,
+				FB16591F287A7FA3004CFDEF /* TimeFormatting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB16590F287A7391004CFDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB165910287A7391004CFDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB165912287A7391004CFDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"caloriesdks/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U45H4TYCV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftprincipiantes.dankensoft.caloriesdks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB165913287A7391004CFDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"caloriesdks/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U45H4TYCV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftprincipiantes.dankensoft.caloriesdks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1658FE287A738C004CFDEF /* Build configuration list for PBXProject "caloriesdks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB16590F287A7391004CFDEF /* Debug */,
+				FB165910287A7391004CFDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB165911287A7391004CFDEF /* Build configuration list for PBXNativeTarget "caloriesdks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB165912287A7391004CFDEF /* Debug */,
+				FB165913287A7391004CFDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB165915287A74E0004CFDEF /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB165916287A74E0004CFDEF /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = FB165916287A74E0004CFDEF /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB1658FB287A738C004CFDEF /* Project object */;
+}
